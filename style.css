@@ -1,88 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
+html,
 body {
-	font-family: "Source Code Pro";
 	margin: 0;
 	padding: 0;
-	font-size: 1.1rem;
-	background-color: rgb(226, 226, 226);
+	font-family: "Poppins";
+	background-color: aliceblue;
 	height: 100vh;
-	overflow: hidden;
-}
-
-.container {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	display: flex;
-	width: 400vw;
-	transition: all 0.5s linear;
-	/* transition-timing-function: linear; */
-	transform: translateX(0vw);
-}
-
-.pages {
-	height: 100%;
 	width: 100vw;
 }
 
-.page-1 {
-	background-color: rgb(226, 226, 226);
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 80%;
 }
 
-.page-2 {
-	background-color: rgb(255, 169, 157);
-}
-
-.page-3 {
-	background-color: rgb(168, 230, 255);
-}
-
-.page-4 {
-	background-color: rgb(234, 255, 115);
-}
-
-.prev-next-buttons button {
-	position: fixed;
+.main-img {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
 	cursor: pointer;
-	padding: 20px;
-	font-size: 25px;
-	font-weight: 900;
+	transition: all 0.5s ease;
 }
 
-.prev-next-buttons .prev {
-	top: 10px;
-	left: 10px;
-}
-
-.prev-next-buttons .next {
-	top: 10px;
-	right: 10px;
-}
-
-.name-heading {
-	font-size: 3.5rem;
-	font-weight: 900;
-	text-align: center;
-	margin-bottom: 10px;
-}
-
-.name-heading span {
-	transition: all 0.2s ease;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-	cursor: pointer;
-	display: inline-block;
-	margin-left: 5px;
-}
-
-.name-heading span:hover {
-	transform: scale(2);
-}
-
-.email {
-	text-align: center;
-	margin-top: 0;
-	font-weight: 600;
-	text-decoration: underline;
-	cursor: pointer;
+.main-img:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 20px rgb(80, 80, 80);
 }
