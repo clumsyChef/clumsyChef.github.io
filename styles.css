@@ -1,20 +1,15 @@
 body {
-	font-family: "Source Code Pro";
+	font-family: "SomeType Mono";
 	font-weight: 500;
 	font-size: 1.1rem;
 }
 
-th,
-td {
-	border: 1px solid black;
-	padding: 10px 20px;
+.hi-line {
+	font-size: 1.4rem;
+	font-weight: 500;
 }
 
-table {
-	border-collapse: collapse;
-}
-
-#nav-bar a {
-	font-size: 1.5rem;
-	font-weight: 700;
+.hi-line b {
+	font-weight: 900;
+	font-size: 2rem;
 }
